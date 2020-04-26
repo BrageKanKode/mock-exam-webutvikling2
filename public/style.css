@@ -1,0 +1,100 @@
+body {
+    background-color: #e6ccb3;
+}
+
+#root {
+    margin: 30px;
+}
+
+.headerBar {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.home {
+    float: left;
+    margin: 30px;
+}
+
+.btnPart {
+    float: right;
+    margin: 30px;
+}
+
+.appHeaderName {
+    font-size: 3em;
+    border-bottom: 1px solid rgb(30, 30, 30);
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.msgDiv {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.notLoggedInMsg {
+    display: inline;
+}
+
+.logOutBtn {
+    float: right;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 5px;
+    background-color: rgb(207, 205, 200);
+    color: rgb(71, 53, 25);
+    text-decoration: none;
+    padding: 5px;
+    margin: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.signupArea {
+    width: 100px;
+    padding-top: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.btn {
+    background-color: #cb9767;
+    margin: 2px;
+    border: none;
+    border-radius: 20%;
+    color: #f8f2ec;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c48a54;
+}
+
+.menu {
+    width: 60%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.meal {
+    padding: 4px;
+}
+
+.bookInput {
+    width: 50%;
+    padding: 5px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.inputTitle {
+    color: #85582e;
+    display: inline;
+}
